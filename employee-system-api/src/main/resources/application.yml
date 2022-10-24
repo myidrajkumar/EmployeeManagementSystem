@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/employee_system
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
